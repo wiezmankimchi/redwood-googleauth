@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
+ * Purpose:
+ * Assign height: "100%" to html, body,
+ * so that the content takes the whole height
+*/
+
+html,
+body,
+#redwood-app {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  @apply text-gray-800;
+}
